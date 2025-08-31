@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tugas 1 Pemrograman Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9faff;
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        td {
+            padding: 10px 15px;
+            vertical-align: top;
+        }
+        /* Header image cell with gradient background */
+        .header-image-cell {
+            background: linear-gradient(135deg, rgba(0, 102, 204, 0.15), rgba(0, 153, 255, 0.05));
+            text-align: center;
+            height: 60px;
+        }
+        .header-image-cell img {
+            max-height: 60px;
+            vertical-align: middle;
+            border-radius: 4px;
+        }
+        /* Link for NDO 2025 */
+        .ndo-link {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #004aad;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 0;
+            transition: color 0.3s ease;
+        }
+        .ndo-link:hover,
+        .ndo-link:focus {
+            color: #002f6c;
+            text-decoration: underline;
+        }
+        /* Left column vertical letters */
+        .vertical-letters div {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #0c0c0c;
+            line-height: 3.5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        /* Peserta list styling */
+        .peserta div {
+            margin-bottom: 4px;
+            font-size: 0.9rem;
+            color: #222;
+        }
+        /* Pemenang styling */
+        .pemenang {
+            margin-top: 20px;
+            font-weight: 600;
+            color: #a83859;
+        }
+        .pemenang div {
+            margin-bottom: 6px;
+            font-size: 1rem;
+        }
+        /* Credit link styling */
+        .credit-link {
+            font-weight: 700;
+            font-size: 1rem;
+            color: #004aad;
+            text-decoration: none;
+            padding: 10px 0;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+        .credit-link:hover,
+        .credit-link:focus {
+            color: #002f6c;
+            text-decoration: underline;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+            }
+            td {
+                display: block;
+                width: 100% !important;
+            }
+            .vertical-letters {
+                display: flex;
+                justify-content: center;
+                gap: 8px;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Membuat tabel -->
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td colspan="2" class="header-image-cell" width="1500" height="60">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWurcJL5H4FzFHIng1TIuj1O6y4l2py70iYw&s" alt="header" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" height="60">
+                <a href="https://youtu.be/vD-3GRDo8zI?si=4QL1JkSX5oMd00Nu" class="ndo-link" target="_blank" rel="noopener noreferrer">
+                    Nationale Deutsch Olympiad 2025
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td width="10" height="500" rowspan="2" align="center" class="vertical-letters">
+                <div class="p1">N</div>
+                <div class="p2">D</div>
+                <div class="p3">0</div>
+                <div class="p4">2</div>
+                <div class="p5">0</div>
+                <div class="p6">2</div>
+                <div class="p7">5</div>
+            </td>
+            <td align="center" width="310" height="90">
+                <p><b>Peserta:</b></p>
+                <div class="peserta">
+                    <div class="p1">Annisa Nailatul Izzah - Banda Aceh</div>
+                    <div class="p2">Fahmi Ihsaan Tamba - Sumatera Utara</div>
+                    <div class="p3">Mazaya Amru - Sumatera Utara</div>
+                    <div class="p4">Ratu Sabrina Turnip - Sumatera Utara</div>
+                    <div class="p5">Diva Angel Lina Pakpahan - Sumatera Utara</div>
+                    <div class="p6">Pangeran Timothy P Simanjuntak - Sumatera Utara</div>
+                    <div class="p7">Azza Mutiara Al Husna - Sumatera Barat</div>
+                    <div class="p8">Dhini Marsya Aulia - Sumatera Barat</div>
+                    <div class="p9">Gaza Ahmad Wirasena - Riau</div>
+                    <div class="p10">Sultan Reynald Sadubi - Riau</div>
+                    <div class="p11">Laeli Alifia - Kepulauan Riau</div>
+                    <div class="p12">Rafael Wibawa - Bengkulu</div>
+                    <div class="p13">Qinayu Qanita Zulkarnain - Jambi</div>
+                    <div class="p14">Muhammad Arif Permana Putra - Sumatera Selatan</div>
+                    <div class="p15">Rayyan Kemal Akbar - Sumatera Selatan</div>
+                    <div class="p16">Zalfa Syafira Hadiawan - Lampung</div>
+                    <div class="p17">Charlene Kayla Tandrea - Banten</div>
+                    <div class="p18">Covenant E. Lingga - Banten</div>
+                    <div class="p19">Gracia Michelle Liu - DKI Jakarta</div>
+                    <div class="p20">Alvin Aditya Wibowo - DKI Jakarta</div>
+                    <div class="p21">Ethan Timothy Irawan - DKI Jakarta</div>
+                    <div class="p22">Aurelia Davina Putri - DKI Jakarta</div>
+                    <div class="p23">Kenzie Blanket Roozen - DKI Jakarta</div>
+                    <div class="p24">Maisa Faizatun Nisa - Jawa Barat</div>
+                    <div class="p25">Nasywa Fatiha Rahma - Jawa Barat</div>
+                    <div class="p26">Muhammad Fajar Nugrah Wibowo - Jawa Barat</div>
+                    <div class="p27">Patrick Alandry Sudjana - Jawa Barat</div>
+                    <div class="p28">Indira Vibby - Jawa Barat</div>
+                    <div class="p29">Karin Yuniarsih - Jawa Tengah</div>
+                    <div class="p30">Keysha Yasmin Alfira - Jawa Tengah</div>
+                    <div class="p31">Ardhan Aryo Bimo - DI Yogyakarta</div>
+                    <div class="p32">Azizah Haya Nareswar - DI Yogyakarta</div>
+                    <div class="p33">Aisyah Nida Us Salamah - Di Yogyakarta</div>
+                    <div class="p34">Evan Risqi Prasetyo - Jawa Timur</div>
+                    <div class="p35">Gavra Handaru Kosasih - Jawa Timur</div>
+                    <div class="p36">Kalina Rasiyah Wijaya - Jawa Timur</div>
+                    <div class="p37">Naurah Efra Maulidyah - Jawa Timur</div>
+                    <div class="p38">Joveano Quillon Argasetya - Jawa Timur</div>
+                    <div class="p39">Chantika Creysentya Widya Agung - Jawa Timur</div>
+                    <div class="p40">Annisa Zahra Aprilia - Jawa Timur</div>
+                    <div class="p41">Radja Deandra Reginald Terry - Nusa Tenggara Barat</div>
+                    <div class="p42">Jeong Hyun Woo - Nusa Tenggara Barat</div>
+                    <div class="p43">Maria Gracinha N Brites da Costa - Nusa Tenggara Timur</div>
+                    <div class="p44">Thiodytta Manuela Toebe - Nusa Tenggara Timur</div>
+                    <div class="p45">Yosefa Maria Ernestin Leyn - Nusa Tenggara Timur </div>
+                    <div class="p46">Desy Kusumawardany - Nusa Tenggara Timur</div>
+                    <div class="p47">Christiani Sesari Adrima - Nusa Tenggara Timur</div>
+                    <div class="p48">Anak Agung Paundra Agus Himawan - Nusa Tenggara Timur</div>
+                    <div class="p49">Maria Elviana Inna - Nusa Tenggara Timur</div>
+                    <div class="p50">Saul Junior Ndolu - Nusa Tenggara Timur</div>
+                    <div class="p51">Gerar Bibelio Magat - Kalimantan Tengah</div>
+                    <div class="p52">Shafira Nur Salsabila - Kalimantan Tengah</div>
+                    <div class="p53">Muhammad Darren D Putra Daryani - Kalimantan Timur</div>
+                    <div class="p54">Ruth Gloryana Siregar - Kalimantan Timur</div>
+                    <div class="p55">Marsselina Angelika - Kalimantan Utara</div>
+                    <div class="p56">Muh Ridho Anugraha - Sulawesi Selatan</div>
+                    <div class="p57">Syahriani Kinantiputri F Baharuddin - Sulawesi Selatan</div>
+                    <div class="p58">Estika Ayudia Putri - Sulawesi Selatan</div>
+                    <div class="p68">Nur Azizah Shakila - Sulawesi Selatan</div>
+                    <div class="p69">Sera Siti Zahra - Sulawesi Selatan</div>
+                    <div class="p70">Muh. Al-Faqi Ibnu Rayyan - Sulawesi Tengah</div>
+                    <div class="p71">Arsyilla Nurul Azizah M. N. - Sulawesi Barat</div>
+                    <div class="p72">Niswah Afiqah Anwar - Sulawesi Barat</div>
+                    <div class="p73">Putu Anindya W Trinata - Sulawesi Utara</div>
+                    <div class="p74">Michelle Rebecca Junaedi - Sulawesi Utara</div>
+                    <div class="p75">Juneisty B. S. Elly - Maluku</div>
+                    <div class="p76">Putri A. C. Kabila - Maluku</div>
+                    <div class="p77">Putri Satriani Hukubun - Maluku</div>
+                    <div class="p78">Dhani Dwi Saputra - Papua Barat</div>
+                    <div class="p79">Claudia Anastasia Yauris - Papua Barat</div>
+                    <div class="p80">Neneng Handayani - Papua Selatan</div>
+                    <div class="p81">Satria Naufal Rafif - Papua</div>
+                </div>
+
+                <p class="pemenang"><b>Pemenang NDO 2025:</b></p>
+                <div class="pemenang">
+                    <div class="p1">Juara 1 Maisa Faizatun Nisa - Jawa Barat</div>
+                    <div class="p2">Juara 2 Charlene Kayla Tandrea - Banten</div>
+                    <div class="p3">Juara 3 Fahmi Ihsaan Tamba - Sumatera Utara</div>
+                    <div class="p4">Juara 4 Nasywa Fatiha Rahma - Jawa Barat</div>
+                    <div class="p5">Juara 5 Indira Vibby - Jawa Barat</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" style="padding: 15px 0;">
+                <a href="https://www.goethe.de/ins/id/id/spr/unt/ate/ndo25.html" target="_blank" rel="noopener noreferrer" class="credit-link">
+                    <u>Credit: Goethe Institut Indonesien</u>
+                </a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
